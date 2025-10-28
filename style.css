@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+     --font-family: "Inter", sans-serif;
+
+
+  /* --font-family: "Poppins", sans-serif; */
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   display: flex;
+   justify-content: center;
+  
+}
+
+
+.main {
+  /* height: 100vh; */
+  width: 776px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: white;
+  /* display: none; */
+}
+
+.logo a {
+  text-decoration: none;
+  color: #474746;
+  font-family: var(--font-family);
+  font-size: 20PX;
+  font-weight: 500;
+  /* color:var(--black); */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 4rem;
+}
+
+
+
+.menu-head {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.menu-head li {
+  list-style: none;
+}
+
+.menu-head li:hover {
+  border-bottom: 2px solid var(--black);
+}
+
+.menu-head li a {
+  text-decoration: none;
+  font-family: var(--font-family);
+    color: #474746;
+
+   font-size: 20PX;
+   font-weight: 500;
+}
+
+ .btn-menu-ct {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+ background-color: black; 
+} 
+
+.btn-menu-ct a {
+  font-family: var(--font-family);
+   font-size: 15PX;
+   /* font-weight: 500; */
+  text-decoration: none;
+  color: white;
+} 
+.line{
+    height: 1px;
+    width: 80%;
+    background-color:#474746 ;
+}
+
+P{
+    margin-top: 2rem;
+    color: #474746;
+    padding: 10px 37px;
+    font-size: 22px;
+    font-family: var(--font-family);
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  flex-direction: row;
+  gap: 1rem;
+color: var(--dark-black);
+font-family: var(--roboto);
+}
+
+.get-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.get-button button{
+  padding: 15px 25px;
+  background-color: black;
+  border-radius: 30px;
+ 
+  letter-spacing: 1px;
+
+}
+.get-button button a{
+  text-decoration: none;
+  font-family: var(--font-family);
+  color: white;
+   font-size: 1rem;
+  
+}
+.productivity{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 10px;
+}
+.to-do{
+  display: flex;
+  justify-content: center;
+}
+.todo-img{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(197, 195, 195);
+}
+.todo-ct{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(173, 170, 170);
+ 
+}
+.daily-planner{
+  display: flex;
+  justify-content: center;
+
+}
+.daily-planner-ct{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(173, 170, 170);
+
+}
+.daily-planner-img{
+height: 300px;
+  width: 350px;
+  background-color: rgb(197, 195, 195);
+}
+.motivational{
+  display: flex;
+  justify-content: center;
+
+}
+.motive-ct{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(173, 170, 170);
+
+}
+.motive-img{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(197, 195, 195);
+
+}
+.promodoro{
+   display: flex;
+  justify-content: center;
+
+}
+.promo-ct{
+   height: 300px;
+  width: 350px;
+  background-color: rgb(173, 170, 170);
+
+}
+.promo-img{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(197, 195, 195);
+
+}
