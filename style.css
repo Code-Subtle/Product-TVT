@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+
+     --black: #121212;  
      --font-family: "Inter", sans-serif;
 
 
@@ -27,17 +29,19 @@ body {
 
 .main {
   /* height: 100vh; */
-  width: 776px;
+  width: 700PX;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   background-color: white;
   /* display: none; */
+/* border: 1px solid brown; */
 }
+
 
 .logo a {
   text-decoration: none;
-  color: #474746;
+  color: var(--black);
   font-family: var(--font-family);
   font-size: 20PX;
   font-weight: 500;
@@ -47,7 +51,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.3rem 4rem;
+  padding: 1.3rem 0rem;
 }
 
 
@@ -69,7 +73,7 @@ body {
 .menu-head li a {
   text-decoration: none;
   font-family: var(--font-family);
-    color: #474746;
+    color: var(--black);
 
    font-size: 20PX;
    font-weight: 500;
@@ -79,7 +83,7 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
- background-color: black; 
+ background-color:var(--black); 
 } 
 
 .btn-menu-ct a {
@@ -89,16 +93,11 @@ body {
   text-decoration: none;
   color: white;
 } 
-.line{
-    height: 1px;
-    width: 80%;
-    background-color:#474746 ;
-}
 
 P{
     margin-top: 2rem;
-    color: #474746;
-    padding: 10px 37px;
+    color: var(--black);
+    padding: 10px 0px;
     font-size: 22px;
     font-family: var(--font-family);
 }
@@ -125,7 +124,7 @@ font-family: var(--roboto);
 
 .get-button button{
   padding: 15px 25px;
-  background-color: black;
+  background-color: var(--black);
   border-radius: 30px;
  
   letter-spacing: 1px;
@@ -151,7 +150,9 @@ font-family: var(--roboto);
 .todo-img{
   height: 300px;
   width: 350px;
-  background-color: rgb(197, 195, 195);
+  /* background-color: rgb(197, 195, 195); */
+  border: 1px solid #474746;
+  opacity: .5;
 }
 .todo-ct{
   height: 300px;
@@ -173,7 +174,8 @@ font-family: var(--roboto);
 .daily-planner-img{
 height: 300px;
   width: 350px;
-  background-color: rgb(197, 195, 195);
+    border: 1px solid #474746;
+  opacity: .5;
 }
 .motivational{
   display: flex;
@@ -189,7 +191,8 @@ height: 300px;
 .motive-img{
   height: 300px;
   width: 350px;
-  background-color: rgb(197, 195, 195);
+    border: 1px solid #474746;
+  opacity: .5;
 
 }
 .promodoro{
@@ -206,6 +209,76 @@ height: 300px;
 .promo-img{
   height: 300px;
   width: 350px;
-  background-color: rgb(197, 195, 195);
+    border: 1px solid #474746;
+  opacity: .5;
 
+}
+
+.footer{
+  height: 300px;
+  width: 100%;
+  /* background-color: black; */
+  position: relative;
+  font-family: var(--font-family);
+}
+
+.fbox-main{
+  display: flex;
+}
+
+.fbox1{
+  height: 200px;
+  width: 233px;
+  
+}
+.fbox2{
+  height: 200px;
+  width: 233px;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.fbox3{
+  height: 200px;
+  width: 233px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fmenu-head {
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+
+  gap: 20px;
+  
+}
+
+.fmenu-head li {
+  list-style: none;
+}
+
+
+.fmenu-head li a {
+  text-decoration: none;
+  font-family: var(--font-family);
+    color: var(--black);
+
+   font-size: 20PX;
+   font-weight: 500;
+}
+
+.footer p{
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--black);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
 }
