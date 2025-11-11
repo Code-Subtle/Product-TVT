@@ -221,11 +221,12 @@ body {
   width: 350px;
   background-color: rgb(173, 170, 170);
 }
-.motive-img {
+.motive-img  img{
   height: 300px;
   width: 350px;
-  border: 1px solid #474746;
-  opacity: 0.5;
+  /* object-fit: contain; */
+  /* border: 1px solid #474746; */
+  /* opacity:  */
 }
 .promodoro {
   display: flex;
